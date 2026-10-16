@@ -20,6 +20,8 @@ Not seeing the Audio Unit in Logic? Log out and back in once.
 - **Gate** — on for vocals on a loud stage, off for speech.
 - **Hear removed** — listen to only what is taken away.
 
+What changed: see [CHANGELOG.md](CHANGELOG.md).
+
 This is a beta. Feedback is welcome.
 
 ## Uninstall
