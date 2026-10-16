@@ -2,6 +2,11 @@
 
 Newest first. Every version is a download under [Releases](https://github.com/cntrlld/ClearVox-beta/releases).
 
+## 0.5.23 — 16 October 2026
+- Live: a little less top, like De-Feedback, so rings in the high end stay away longer: in the show test 5-8 kHz rings start 2 dB later (+8.5 instead of +6.5), with about the same colour as De-Feedback.
+- Live+ keeps its open top.
+- Studio is now fully open (no top reduction at all): there is no feedback loop to fear in post-production.
+
 ## 0.5.22 — 16 October 2026
 - Safety ceiling: a clipped input can no longer push the output over 0 dBFS (it reached +3.8 dBFS before). A normal voice is untouched.
 - Gate is off by default.
