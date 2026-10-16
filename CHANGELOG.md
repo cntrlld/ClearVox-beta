@@ -2,6 +2,9 @@
 
 Newest first. Every version is a download under [Releases](https://github.com/cntrlld/ClearVox-beta/releases).
 
+## 0.5.24 — 16 October 2026
+- Clean now goes to 120 %. Up to 100 % nothing changed (100 % is still the default; double-click returns to it). From 100 to 120 % extra protection against rings in the high end fades in: a deeper dip around 6.5 kHz and a little less top. At 120 % rings at 5-8 kHz start about 3 dB later than at 100 %; the voice gets a bit duller. The value turns amber above 100 %.
+
 ## 0.5.23 — 16 October 2026
 - Live: a little less top, like De-Feedback, so rings in the high end stay away longer: in the show test 5-8 kHz rings start 2 dB later (+8.5 instead of +6.5), with about the same colour as De-Feedback.
 - Live+ keeps its open top.
