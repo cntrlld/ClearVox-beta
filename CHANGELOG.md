@@ -2,6 +2,10 @@
 
 Newest first. Every version is a download under [Releases](https://github.com/cntrlld/ClearVox-beta/releases).
 
+## 0.5.25 — 20 October 2026
+- ClearVox now has a 30-day trial with nothing held back. After that, a licence keeps it running: €49.95 during the beta, every update included. Paste the licence in the licence line at the bottom right.
+- The same licence system as SPECTRA: one licence for your computers, checked on your own machine. A licence for all CNTRLLD plug-ins works too.
+
 ## 0.5.24 — 16 October 2026
 - Clean now goes to 120 %. Up to 100 % nothing changed (100 % is still the default; double-click returns to it). From 100 to 120 % extra protection against rings in the high end fades in: a deeper dip around 6.5 kHz and a little less top. At 120 % rings at 5-8 kHz start about 3 dB later than at 100 %; the voice gets a bit duller. The value turns amber above 100 %.
 
