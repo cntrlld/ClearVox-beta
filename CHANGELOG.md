@@ -2,6 +2,9 @@
 
 Newest first. Every version is a download under [Releases](https://github.com/cntrlld/ClearVox-beta/releases).
 
+## 0.5.26 — 24 October 2026
+- The Hear removed button is gone: the interface is Live / Live+ / Studio, Gate and Bypass.
+
 ## 0.5.25 — 20 October 2026
 - ClearVox now has a 30-day trial with nothing held back. After that, a licence keeps it running: €49.95 during the beta, every update included. Paste the licence in the licence line at the bottom right.
 - The same licence system as SPECTRA: one licence for your computers, checked on your own machine. A licence for all CNTRLLD plug-ins works too.
