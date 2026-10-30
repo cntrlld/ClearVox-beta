@@ -2,6 +2,10 @@
 
 Newest first. Every version is a download under [Releases](https://github.com/cntrlld/ClearVox-beta/releases).
 
+## 0.5.27 — 31 October 2026
+- Stereo is now linked: on a stereo track or group (a panned choir, say) ClearVox analyses both channels together and treats them the same, so every voice stays exactly where it is panned. Before, the two sides were processed apart: a panned voice could be pushed towards one side, and moving a pan through the centre could click.
+- A mono mic on a stereo track sounds exactly as before, at the same CPU.
+
 ## 0.5.26 — 24 October 2026
 - The Hear removed button is gone: the interface is Live / Live+ / Studio, Gate and Bypass.
 
