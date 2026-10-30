@@ -2,6 +2,9 @@
 
 Newest first. Every version is a download under [Releases](https://github.com/cntrlld/ClearVox-beta/releases).
 
+## 0.5.28 — 31 October 2026
+- No more clicks when ClearVox starts playing or switches to Live+ or Studio: everything is loaded and ready before the first note, so the first blocks are as light as all the others (worst block at a 32-sample buffer went from far over budget to well under it).
+
 ## 0.5.27 — 31 October 2026
 - Stereo is now linked: on a stereo track or group (a panned choir, say) ClearVox analyses both channels together and treats them the same, so every voice stays exactly where it is panned. Before, the two sides were processed apart: a panned voice could be pushed towards one side, and moving a pan through the centre could click.
 - A mono mic on a stereo track sounds exactly as before, at the same CPU.
