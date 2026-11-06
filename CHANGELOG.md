@@ -2,6 +2,11 @@
 
 Newest first. Every version is a download under [Releases](https://github.com/cntrlld/ClearVox-beta/releases).
 
+## 0.5.29 — 6 November 2026
+- Voices no longer sink inside a phrase: a cut now closes slowly and opens at once, and only a real pause goes deep. Less of the "pushed down" sound and fewer holes (40 voices on a group: voice loss 5.3 -> 2.8 dB, holes deeper than 10 dB 46 -> 11 a minute). Long pauses are still cleaned.
+- New Group button: for a vocal group, a choir or many open mics on one insert. Inside a phrase the voices may no longer drop away, so the gating, stuttering effect is gone; pauses are still cleaned. 40 open headset mics with two talkers: holes deeper than 6 dB 107 -> 19 a minute, deeper than 10 dB 44 -> 5. Same feedback margin in Live. Works in Live, Live+ and Studio; leave it off on a single mic.
+- New Link button: put ClearVox on each mic of a group and give them the same number (1-4). Per frequency band the mic that has the voice keeps it and the others go down, like an automixer inside ClearVox, at zero latency. One talker on 4 mics: about 6 dB more room taken away and about 4 dB more gain before feedback. The inserts must run in the same host (Reaper, Gig Performer, SuperRack, LiveProfessor...).
+
 ## 0.5.28 — 31 October 2026
 - No more clicks when ClearVox starts playing or switches to Live+ or Studio: everything is loaded and ready before the first note, so the first blocks are as light as all the others (worst block at a 32-sample buffer went from far over budget to well under it).
 
