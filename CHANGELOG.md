@@ -2,6 +2,10 @@
 
 Newest first. Every version is a download under [Releases](https://github.com/cntrlld/ClearVox-beta/releases).
 
+## 0.5.32 — 8 November 2026
+- Link is now a full automixer for speech: panels, presentations, corporate headsets. Only the mic of the person talking stays open; the others go down (at most 25 dB) and close smoothly after about 0.4 s. One gain for the whole mic, so every voice keeps its own sound, still at zero latency. 6 headsets, panel with turn-taking: fewer dips than the 0.5.29 Link (about a third less), the voice slightly fuller, the same room taken away and the same gain before feedback (about 8 dB more than without Link).
+- Link off sounds exactly as 0.5.31.
+
 ## 0.5.31 — 8 November 2026
 - More gain before feedback in Live, Live+ and at 120 %: a howl now runs away on average about 1.5-2.5 dB later than in 0.5.29 (48 simulated rooms; Live +16.6 vs +14.1 dB, 120 % +16.9 vs +14.5, Live+ +15.8 vs +14.3). While ClearVox catches a howl it now cuts at once and in full, and a howl growing out of a sung note in the low mids (150-750 Hz) is recognised sooner. You do not hear ringing any earlier, and voices, holes and stutter are as in 0.5.29.
 - Fixed a rare fault, present since early versions, that could make the output invalid (silence or noise) for a moment, mostly on Intel Macs at 96 kHz. As an extra safeguard ClearVox now restarts itself within one block should its output ever be invalid.
