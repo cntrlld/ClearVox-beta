@@ -2,6 +2,13 @@
 
 Newest first. Every version is a download under [Releases](https://github.com/cntrlld/ClearVox-beta/releases).
 
+## 0.5.31 — 8 November 2026
+- More gain before feedback in Live, Live+ and at 120 %: a howl now runs away on average about 1.5-2.5 dB later than in 0.5.29 (48 simulated rooms; Live +16.6 vs +14.1 dB, 120 % +16.9 vs +14.5, Live+ +15.8 vs +14.3). While ClearVox catches a howl it now cuts at once and in full, and a howl growing out of a sung note in the low mids (150-750 Hz) is recognised sooner. You do not hear ringing any earlier, and voices, holes and stutter are as in 0.5.29.
+- Fixed a rare fault, present since early versions, that could make the output invalid (silence or noise) for a moment, mostly on Intel Macs at 96 kHz. As an extra safeguard ClearVox now restarts itself within one block should its output ever be invalid.
+- The Link button lights up green with the number of linked inserts it hears ("Link 1 · 3"), and shows "alone" in amber when no other insert has the same number.
+- Undo and Redo are gone from the interface.
+- The free trial is now 14 days.
+
 ## 0.5.29 — 6 November 2026
 - Voices no longer sink inside a phrase: a cut now closes slowly and opens at once, and only a real pause goes deep. Less of the "pushed down" sound and fewer holes (40 voices on a group: voice loss 5.3 -> 2.8 dB, holes deeper than 10 dB 46 -> 11 a minute). Long pauses are still cleaned.
 - New Group button: for a vocal group, a choir or many open mics on one insert. Inside a phrase the voices may no longer drop away, so the gating, stuttering effect is gone; pauses are still cleaned. 40 open headset mics with two talkers: holes deeper than 6 dB 107 -> 19 a minute, deeper than 10 dB 44 -> 5. Same feedback margin in Live. Works in Live, Live+ and Studio; leave it off on a single mic.
