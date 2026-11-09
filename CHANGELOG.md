@@ -2,6 +2,9 @@
 
 Newest first. Every version is a download under [Releases](https://github.com/cntrlld/ClearVox-beta/releases).
 
+## 0.5.33 — 9 November 2026
+- The Group button hint now reads: many mics on one insert.
+
 ## 0.5.32 — 8 November 2026
 - Link is now a full automixer for speech: panels, presentations, corporate headsets. Only the mic of the person talking stays open; the others go down (at most 25 dB) and close smoothly after about 0.4 s. One gain for the whole mic, so every voice keeps its own sound, still at zero latency. 6 headsets, panel with turn-taking: fewer dips than the 0.5.29 Link (about a third less), the voice slightly fuller, the same room taken away and the same gain before feedback (about 8 dB more than without Link).
 - Link off sounds exactly as 0.5.31.
