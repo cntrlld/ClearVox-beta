@@ -2,6 +2,11 @@
 
 Newest first. Every version is a download under [Releases](https://github.com/cntrlld/ClearVox-beta/releases).
 
+## 0.5.36 — 15 November 2026
+- Live and Live+: more of the room, the ambience and the PA taken away around the voice, with the voice as open and natural as the mic.
+- Live uses about 30 % less CPU per insert.
+- Stability improvements.
+
 ## 0.5.33 — 9 November 2026
 - The Group button hint now reads: many mics on one insert.
 
